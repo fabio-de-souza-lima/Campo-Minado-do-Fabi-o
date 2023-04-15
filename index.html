@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="br"></html>
+<html>
+<!-- Webpage Title -->
+<title> Campo Minado do Fabião </title>
+<head>
+	<!-- Favicon  -->
+    <link rel="icon" href="imagens/favicon.png">
+
+	<meta charset="utf-8">
+	<script src="app/minefield.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<div>
+
+	<img src="imagens/c.png"  height="25%" width="25%">
+		  
+
+</div>
+
+<body>
+	<div>
+		<font face="verdana" color="Red">
+		<h1>Campo Minado</h1>
+	</div>
+	<h1 id="status" hidden style="text-align: center;"></h1>
+	<div id="timer"></div>
+	<br/>
+	<div id="options" style="margin: 0 auto; display: block; text-align: center;">
+		<form id="difficulty">
+			
+			<input type="radio" name="difficulty" value="iniciante"> Iniciante<br>
+			<input type="radio" name="difficulty" value="intermediario"> Intermediário<br>
+			<input type="radio" name="difficulty" value="experiente"> Experiente<br>
+		</font>
+		  </form>
+		<br/>
+			<button id="start" onclick="start(event);"style="background-color:red; border-color:blue; color:white">	Iniciar o Jogo
+		
+		</button>
+	</div>
+	<table style="margin: 0 auto;">
+		<tbody id="field"></tbody>
+	</table>
+</body>
+
+</html>

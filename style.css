@@ -1,0 +1,61 @@
+body {
+  align-items: center;
+}
+
+div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border: 1px solid;
+  border-color: rgb(100, 17, 254);
+  background-color: rgb(150, 138, 138);
+  font-weight: bold;
+}
+
+#field {
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.zero {
+  opacity: .8;
+}
+
+.one {
+  color: blue;
+}
+
+.two {
+  color: green;
+}
+
+.three {
+  color: brown;
+}
+
+.four {
+  color: black;
+}
+
+.five {
+  color: yellow;
+}
+
+.six {
+  color: pink;
+}
+
+.seven {
+  color: orange;
+}
+
+body {
+
+  background-image: url('imagens/campo\ minado.jpg');
+}
